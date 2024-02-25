@@ -1,8 +1,10 @@
 ---
-title: "Non-demographic changes"
-format:
-  html:
-    toc: true
+title: "Covid data from {NHSRdatasets}"
+format: html
+params:
+  country: "New_Zealand"
+  month_start: "2019-12-01"
+  month_end: "2020-12-01"
 ---
 
 ```{r}
