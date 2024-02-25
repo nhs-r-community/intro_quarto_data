@@ -32,7 +32,7 @@ server <- function(input, output) {
     if (input$render) {
       isolate(
         quarto::quarto_render(
-          "my_report.qmd",
+          "covid-analysis.qmd",
           execute_params = list(country = input$country)
         )
       )
